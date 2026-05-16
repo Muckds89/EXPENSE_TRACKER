@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\marco\\\\OneDrive\\\\Documenti\\\\expense-tracker-ai\" -Recurse -Name | Where-Object { $_ -notmatch \"node_modules|\\\\.next\" })"
+    ]
+  }
+}
